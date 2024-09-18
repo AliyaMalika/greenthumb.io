@@ -1,0 +1,644 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #6ab04c; /* Green shade */
+  padding: 10px 0;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: left;
+  color: #285927; /* Darker green for contrast */
+}
+
+.title h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.search-profile-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+#search-button {
+  background-color: #285927; /* Darker green */
+  color: white;
+  padding: 5px 12px;
+  margin-left: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#search-input {
+  padding-left: 10px;
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.profile a {
+  color: #285927; /* Dark green */
+}
+
+/* End header */
+
+/* Logo styles */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 180px; /* Adjust the value as per your desired size */
+  height: auto;
+  padding: 10px;
+}
+
+/* End logo */
+
+/* Menu styles */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  color: #285927; /* Dark green */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* End menu */
+
+/* Home style */
+.hero-section {
+  position: relative;
+  background-image: url("plant-tree.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px;
+  opacity: 0.85;
+}
+
+.section-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #285927; /* Dark green */
+  color: white;
+  padding: 5px 12px;
+  margin-left: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.gardening-section {
+  background-color: #3d793d; /* Darker green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  color: #3d793d; /* Darker green */
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.plant-section {
+  background-color: #6ab04c; /* Green shade */
+  color: #285927; /* Dark green */
+  padding: 50px;
+  text-align: center;
+}
+
+.psection-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.psection-description {
+  font-weight: italic;
+}
+
+.plant-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.plant-image {
+  width: 150px;
+  margin: 10px;
+}
+
+.plant-name {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.events-section {
+  background-color: #3d793d; /* Darker green */
+  color: #6ab04c; /* Green shade */
+  padding: 50px;
+  text-align: center;
+}
+
+.esection-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #6ab04c; /* Green shade */
+  background-color: #3d793d; /* Darker green */
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-icon.left {
+  left: 10px;
+}
+
+.arrow-icon.right {
+  right: 10px;
+}
+
+/* End Home style */
+
+/* Footer styles */
+footer {
+  background-color: #6ab04c; /* Green shade */
+  padding: 20px 0;
+  text-align: center;
+  color: #285927; /* Dark green */
+}
+
+.copyright {
+  max-width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-media-icons a {
+  color: #285927; /* Dark green */
+  margin: 0 10px;
+}
+
+.social-media-icons a:hover {
+  color: #204f20; /* Darker green on hover */
+}
+
+/* Profile section styles */
+.profile-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover; /* Ensure the profile picture fits properly */
+}
+
+.profile-name {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.editable-save-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editable-save-button:hover {
+  background-color: #45a049;
+}
+
+/* Activities section styles */
+.activities-section {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.activities-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.activity-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.activity {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity h3 {
+  margin-top: 0;
+}
+
+.activity p {
+  margin-bottom: 0;
+}
+
+/* Forum section styles */
+.forum-section {
+  padding: 20px;
+}
+
+.upload-form {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+}
+
+.upload-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.upload-form input,
+.upload-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.upload-button {
+  padding: 8px 20px;
+  background-color: #285927; /* Dark green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.upload-button:hover {
+  background-color: #204f20; /* Darker green on hover */
+}
+
+/* Post styles */
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post-caption {
+  margin-top: 10px;
+  font-size: 16px;
+}
+/* End footer */
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Form container styles */
+.form-container {
+  background-color: #68906a;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #27762b;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* About Us styles */
+.about-us-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.about-us-container h1, .about-us-container h2 {
+  color: #285927; /* Dark green */
+}
+
+.about-us-container p, .about-us-container ul {
+  color: #34495e; /* Dark grey for text */
+  line-height: 1.6;
+}
+
+.about-us-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-us-container ul li {
+  margin: 10px 0;
+}
+
+.about-us-container ul li strong {
+  color: #6ab04c; /* Green shade */
+}
+
+.about-us-container a {
+  color: #6ab04c; /* Green shade */
+  text-decoration: none;
+}
+
+.about-us-container a:hover {
+  text-decoration: underline;
+}
+/* End About Us styles */
+
+/* Volunteer*/
+.registered-events {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #8acc6f;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.registered-events h3 {
+  margin-bottom: 10px;
+}
+.registered-events ul {
+  list-style-type: none;
+  padding: 0;
+}
+.registered-events li {
+  margin-bottom: 5px;
+}
+/*End Volunteer*/
+
+/* Donation container styles */
+.donation-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation-container h2 {
+  color: #00b300;
+}
+
+.donation-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Donation options styles */
+.donation-options {
+  margin-bottom: 20px;
+}
+
+.donation-options h3 {
+  color: #00b300;
+}
+
+.donation-options ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.donation-options ul li {
+  margin-bottom: 5px;
+}
+
+/* Online donation form styles */
+.online-donation {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.online-donation h3 {
+  color: #285927;
+}
+
+.online-donation form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.online-donation .w3-section {
+  margin-bottom: 15px;
+}
+
+.online-donation label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.online-donation input[type="number"],
+.online-donation input[type="text"],
+.online-donation input[type="email"],
+.online-donation button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.online-donation button {
+  background-color: #285927;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.online-donation button:hover {
+  background-color: #285927;
+}
